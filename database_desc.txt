@@ -1,0 +1,13 @@
+Create Database MyBuzz;
+
+use MyBuzz;
+
+Create Table Movie(
+    id int NOT Null AUTO_INCREMENT Primary key,
+    name varchar(50) Not NULL,
+    rating int not Null,
+    wdate date not null,
+    genre varchar(150) not null,
+    mood varchar(150) not null,
+    review varchar(280) not null
+)
